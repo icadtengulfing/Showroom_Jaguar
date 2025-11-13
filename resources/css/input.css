@@ -1,0 +1,62 @@
+body {
+    font-family: "Inter", sans-serif;
+    overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#modelsPanel {
+    backdrop-filter: blur(6px);
+}
+
+/* Font bosku */
+.exo-font {
+    font-family: "Exo 2", sans-serif;
+}
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+}
+
+.cinzel-font {
+    font-family: "Cinzel", serif;
+}
+
+.josefin-font {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.montserrat-font {
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Secerol bar mamen */
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+/* Animasi sikil */
+.fade-section {
+    opacity: 0;
+    transform: translate3d(0, 40px, 0);
+    transition: opacity 1s ease, transform 1s ease;
+    will-change: opacity, transform;
+}
+
+.fade-section.visible {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+}
+
+.group video {
+    pointer-events: none;
+}
+.group:hover video {
+    animation: playVideo 0.2s ease-in;
+}

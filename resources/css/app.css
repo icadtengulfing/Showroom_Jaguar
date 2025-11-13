@@ -1,0 +1,28 @@
+@tailwind base;
+@import "daisyui";
+@tailwind components;
+@tailwind utilities;
+
+@source "./node_modules/preline/dist/*.js";
+@import "./node_modules/preline/variants.css";
+
+:root {
+    --bg-primary: #ffffff;
+    --txt-primary: #000000;
+    --bg-primary2: #0ea5e9; /* sky-500 */
+    --bg-secondary: #38bdf8; /* sky-400 */
+    --txt-secondary: #0a0a0a;
+}
+
+.dark {
+    --bg-primary: #000000;
+    --bg-primary1: #0c1015;
+    --txt-primary: #ffffff;
+    --bg-primary2: #fb00ff;
+    --bg-secondary: #fb00ff;
+    --txt-secondary: #111827; /* gray-900 on bright buttons */
+    --bg-primary3: #ffffff;
+    --bg-primary4: #585858;
+    --bg-primary5: #090c10;
+    --bg-button: #005dd6;
+}
