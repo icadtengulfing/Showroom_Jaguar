@@ -101,7 +101,7 @@ class DealersUser extends Component
 
   public function mount($id = null)
   {
-    $this->dealer = Dealer::find($id); // Single object, bukan collection
+    $this->dealer = Dealer::find($id);
   }
 
   public function render()
