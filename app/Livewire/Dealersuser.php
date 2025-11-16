@@ -6,7 +6,7 @@ use App\Models\Dealer;
 use Livewire\Component;
 use Livewire\WithPagination;
 
-class Dealersuser extends Component
+class DealersUser extends Component
 {
   use WithPagination;
 
