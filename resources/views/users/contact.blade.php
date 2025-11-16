@@ -11,7 +11,7 @@
 
   <!-- Icons & Tailwind CSS -->
   @viteReactRefresh
-  @vite(['resources/css/app.css','resources/css/input.css', 'resources/js/app.jsx'])
+  @vite(['resources/css/app.css','resources/js/app.jsx'])
   <style>
     * {
       scrollbar-width: none;
