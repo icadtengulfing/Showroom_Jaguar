@@ -12,7 +12,6 @@ class AdminController extends Controller
     public function dashboard()
     {
         $stats = [
-            'totalUsers' => User::count(),
             'totalDealers' => Dealer::count(),
             'totalContacts' => Contact::count(),
         ];
