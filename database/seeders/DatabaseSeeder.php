@@ -14,9 +14,9 @@ class DatabaseSeeder extends Seeder
         // Panggil semua seeder yang kamu punya di sini
         $this->call([
             DealersTableSeeder::class,
-            UsersTableSeeder::class,
             ContactFormsTableSeeder::class,
             CarSpecificationsTableSeeder::class,
+            AdminSeeder::class,
         ]);
     }
 }
