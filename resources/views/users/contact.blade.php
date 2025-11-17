@@ -73,7 +73,7 @@
 
     <!-- Contact Form -->
     <div class="max-w-4xl w-full bg-[#0C0C0C]/80 border border-gray-700 rounded-md p-10 shadow-lg">
-      <form action="{{ route('contact.submit', $dealer->id) }}" method="POST" class="grid grid-cols-1 md:grid-cols-2 gap-6 text-sm">
+      <form action="{{ route('services.sendContact',$dealer->id) }}" method="POST" class="grid grid-cols-1 md:grid-cols-2 gap-6 text-sm">
         @csrf
         
         <!-- First Name -->
@@ -112,7 +112,7 @@
         <div>
           <label class="block mb-2 text-gray-400 josefin-font">Model</label>
           <select id="countries" class="w-full bg-black border border-gray-700 rounded-md px-4 py-2 text-gray-300">
-            <option selected>Choose a country</option>
+            <option selected>Choose your car</option>
             <option value="F-Pace">F-Pace</option>
             <option value="E-Pace">E-Pace</option>
             <option value="E-Type">E-Type</option>

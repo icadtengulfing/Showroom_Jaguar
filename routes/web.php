@@ -4,7 +4,8 @@ use App\Livewire;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\AdminAuthController;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\ServiceController;
+use App\Http\Controllers\ServicesController;
+use App\Http\Controllers\DealersUserController;
 
 Route::get('/admin', [AdminAuthController::class, 'LoginView']);
 Route::post('/admin/login', [AdminAuthController::class, 'login']);
@@ -26,9 +27,7 @@ Route::get('/modern', function () {
   return view('users.modern-vehicle');
 });
 
-Route::get('/dealers', function () {
-  return view('users.dealers');
-});
+Route::get('/dealers', [DealersUserController::class, 'index'])->name('dealers.index');
 
 Route::get('/services', function () {
   return view('users.services');
@@ -67,5 +66,6 @@ Route::get('/xk150', function () {
 });
 
 
-Route::get('/services/{id}/contact', [ServiceController::class, 'contactPage'])->name('contact.page');
-Route::post('/services/{id}/contact', [ServiceController::class, 'contactSubmit'])->name('contact.submit');
+Route::get('/services', [ServicesController::class, 'index'])->name('services.index');
+Route::get('/services/{id}/contact', [ServicesController::class, 'contact'])->name('services.contact');
+Route::post('/services/{id}/contact', [ServicesController::class, 'sendContact'])->name('services.sendContact');
