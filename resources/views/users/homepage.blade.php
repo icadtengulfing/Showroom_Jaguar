@@ -116,34 +116,6 @@ html::-webkit-scrollbar {
     data-amount-x="31"
     data-bottom-circle="false"
   ></div>
-  
-    <button class="absolute left-30 top-1/2 -translate-y-1/2 z-20
-                   w-12 h-12 flex items-center justify-center rounded-full
-                   border border-gray-400/50 text-gray-200
-                   hover:bg-white/10 hover:scale-110 cursor-pointer
-                   transition-all duration-300">
-      <svg xmlns="http://www.w3.org/2000/svg"
-           viewBox="0 0 24 24"
-           fill="none" stroke="currentColor"
-           stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-           class="w-5 h-5">
-        <path d="M15 18l-6-6 6-6" />
-      </svg>
-    </button>
-
-    <button class="absolute right-30 top-1/2 -translate-y-1/2 z-20
-                   w-12 h-12 flex items-center justify-center rounded-full
-                   border border-gray-400/50 text-gray-200
-                   hover:bg-white/10 hover:scale-110 cursor-pointer
-                   transition-all duration-300">
-      <svg xmlns="http://www.w3.org/2000/svg"
-           viewBox="0 0 24 24"
-           fill="none" stroke="currentColor"
-           stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-           class="w-5 h-5">
-        <path d="M9 6l6 6-6 6" />
-      </svg>
-    </button>
 
     <a href="TYPE00.html"
        class="mt-5 flex items-center gap-2 text-md tracking-widest josefin-font hover:opacity-80 transition">

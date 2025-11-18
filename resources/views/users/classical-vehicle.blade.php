@@ -67,7 +67,7 @@ html::-webkit-scrollbar {
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-10 max-w-6xl w-full">
 
       <!-- Card 1 -->
-      <a href="E-TYPE.html" class="relative overflow-hidden rounded-md group">
+      <a href="e-type" class="relative overflow-hidden rounded-md group">
         <img src="./media/jaguarE-type.svg" alt="E-TYPE" class="w-full h-full object-cover" />
         <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex flex-col justify-end p-6">
           <h3 class="absolute top-6 left-1/2 -translate-x-1/2 text-3xl font-bold tracking-[0.2em] uppercase text-center cinzel-font">
@@ -86,7 +86,7 @@ html::-webkit-scrollbar {
       </a>
 
       <!-- Card 2 -->
-      <a href="XK120.html" class="relative overflow-hidden rounded-md group">
+      <a href="xk120" class="relative overflow-hidden rounded-md group">
         <img src="./media/XK120.svg" alt="XK120" class="w-full h-full object-cover" />
         <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex flex-col justify-end p-6">
           <h3 class="absolute top-6 left-1/2 -translate-x-1/2 text-3xl font-bold tracking-[0.2em] uppercase text-center cinzel-font">XK120</h3>
@@ -103,7 +103,7 @@ html::-webkit-scrollbar {
       </a>
 
       <!-- Card 3 -->
-      <a href="XK140.html" class="relative overflow-hidden rounded-md group">
+      <a href="xk140" class="relative overflow-hidden rounded-md group">
         <img src="./media/XK140.svg" alt="XK140" class="w-full h-full object-cover" />
         <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex flex-col justify-end p-6">
           <h3 class="absolute top-6 left-1/2 -translate-x-1/2 text-3xl font-bold tracking-[0.2em] uppercase text-center cinzel-font">XK140</h3>
@@ -120,7 +120,7 @@ html::-webkit-scrollbar {
       </a>
 
       <!-- Card 4 -->
-      <a href="XK150.html" class="relative overflow-hidden rounded-md group">
+      <a href="xk150" class="relative overflow-hidden rounded-md group">
         <img src="./media/XK150.svg" alt="XK150" class="w-full h-full object-cover" />
         <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex flex-col justify-end p-6">
           <h3 class="absolute top-6 left-1/2 -translate-x-1/2 text-3xl font-bold tracking-[0.2em] uppercase text-center cinzel-font">XK150</h3>

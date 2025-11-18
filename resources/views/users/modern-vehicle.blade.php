@@ -67,7 +67,7 @@ html::-webkit-scrollbar {
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-10 max-w-6xl w-full">
 
       <!-- Card 1 -->
-      <a href="F-PACE.html" class="relative overflow-hidden rounded-md group">
+      <a href="f-pace" class="relative overflow-hidden rounded-md group">
         <img src="./media/jaguarF-pace.svg" alt="Jaguar F-Pace" class="w-full h-full object-cover" />
         <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex flex-col justify-end p-6">
           <h3 class="absolute top-6 left-1/2 -translate-x-1/2 text-3xl font-bold tracking-[0.2em] uppercase text-center cinzel-font">F-PACE</h3>
@@ -84,7 +84,7 @@ html::-webkit-scrollbar {
       </a>
 
       <!-- Card 2 -->
-      <a href="E-PACE.html" class="relative overflow-hidden rounded-md group">
+      <a href="e-pace" class="relative overflow-hidden rounded-md group">
         <img src="./media/jaguarE-pace.svg" alt="Jaguar E-Pace" class="w-full h-full object-cover" />
         <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex flex-col justify-end p-6">
           <h3 class="absolute top-6 left-1/2 -translate-x-1/2 text-3xl font-bold tracking-[0.2em] uppercase text-center cinzel-font">E-PACE</h3>
@@ -101,7 +101,7 @@ html::-webkit-scrollbar {
       </a>
 
       <!-- Card 3 -->
-      <a href="I-PACE.html" class="relative overflow-hidden rounded-md group">
+      <a href="i-pace" class="relative overflow-hidden rounded-md group">
         <img src="./media/jaguarI-pace.svg" alt="Jaguar I-Pace" class="w-full h-full object-cover" />
         <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex flex-col justify-end p-6">
           <h3 class="absolute top-6 left-1/2 -translate-x-1/2 text-3xl font-bold tracking-[0.2em] uppercase text-center cinzel-font">I-PACE</h3>
@@ -118,7 +118,7 @@ html::-webkit-scrollbar {
       </a>
 
       <!-- Card 4 -->
-      <a href="F-TYPE.html" class="relative overflow-hidden rounded-md group">
+      <a href="f-type" class="relative overflow-hidden rounded-md group">
         <img src="./media/jaguarF-type.svg" alt="Jaguar F-Type" class="w-full h-full object-cover" />
         <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex flex-col justify-end p-6">
           <h3 class="absolute top-6 left-1/2 -translate-x-1/2 text-3xl font-bold tracking-[0.2em] uppercase text-center cinzel-font">F-TYPE</h3>
