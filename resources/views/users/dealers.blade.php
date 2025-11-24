@@ -113,10 +113,10 @@
         @endforelse
       </div>
 
-      <!-- Pagination -->
-      <div class="mt-8">
-        {{ $dealers->links() }}
-      </div>
+      <div class="mt-5 mb-5 flex justify-start">
+        {{-- Panggil custom view 'pagination/flowbite-custom' --}}
+        {{ $dealers->links('components.pagination-flowbite-user') }}
+    </div>
 
     </section>
   </div>

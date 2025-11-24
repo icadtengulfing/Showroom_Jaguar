@@ -24,8 +24,8 @@ class DealersUserController extends Controller
           ->orWhere('country', 'like', "%{$q}%");
       })
       ->latest()
-      ->paginate(6)        // ubah angka kalau mau jumlah per page lain
-      ->withQueryString(); // supaya ?q=xxx tetap muncul di pagination links
+      ->paginate(6)
+      ->withQueryString();
 
     return view('users.dealers', [
       'dealers' => $dealers,
